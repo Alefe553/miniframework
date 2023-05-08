@@ -1,0 +1,10 @@
+
+<h2>Sobre nós:</h2>
+<hr>
+<?php
+    foreach($this->view->dados as $session) {
+?>
+        <h3><?= $session['titulo'] ?></h3>
+        <br>
+        <p><?= $session['descricao'] ?></p>
+<?php } ?>

@@ -1,0 +1,18 @@
+{
+    "name": "php/mini-framework",
+    "require": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "email": "alefe_08@hotmail.com",
+            "name": "Álefe"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+}
